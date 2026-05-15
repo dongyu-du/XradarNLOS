@@ -1,0 +1,25 @@
+# Large data — do not commit
+data/
+results/
+
+# Checkpoints — 171 MB each, exceeds GitHub's 100 MB limit
+# Use Git LFS or host externally (e.g. Hugging Face Hub, Google Drive)
+checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+*~

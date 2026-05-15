@@ -1,0 +1,9 @@
+torch>=1.9.0
+numpy
+scipy
+scikit-image
+scikit-learn
+matplotlib
+tqdm
+einops
+timm

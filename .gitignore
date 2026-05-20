@@ -1,3 +1,6 @@
+# Scripts — local-use only, not for distribution
+scripts/
+
 # Large data — do not commit
 data/
 results/

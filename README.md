@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ```
 XBandNlos/
-├── data/                          # (gitignored) datasets
+├── data/                          # datasets
 │   ├── real_data/
 │   │   ├── train/                 # real captures for training
 │   │   └── test/                  # real captures for evaluation
@@ -44,13 +44,13 @@ XBandNlos/
 │       ├── val/                   # simulated scenes for validation
 │       └── test/                  # simulated scenes for evaluation
 │
-├── checkpoints/                   # (gitignored) pretrained weights
+├── checkpoints/                   # pretrained weights
 │   ├── swinunet_stage1_realdata.pth
 │   ├── swinunet_stage1_simdata.pth
 │   ├── reflectnet_stage2_realdata.pth
 │   └── reflectnet_stage2_simdata.pth
 │
-├── results/                       # (gitignored) inference outputs
+├── results/                       # inference outputs
 ├── utils/                         # shared modules
 ├── infer_swin.py                  # Stage 1 inference
 ├── infer_nlos.py                  # Stage 2 inference

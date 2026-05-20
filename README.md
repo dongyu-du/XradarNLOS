@@ -39,11 +39,10 @@ XBandNlos/
 │   ├── real_data/
 │   │   ├── train/                 # real captures for training
 │   │   └── test/                  # real captures for evaluation
-│   ├── simulated_data/
-│   │   ├── train/                 # simulated scenes for training
-│   │   ├── val/                   # simulated scenes for validation
-│   │   └── test/                  # simulated scenes for evaluation
-│   └── data_splits/               # train/val/test file lists (.txt)
+│   └── simulated_data/
+│       ├── train/                 # simulated scenes for training
+│       ├── val/                   # simulated scenes for validation
+│       └── test/                  # simulated scenes for evaluation
 │
 ├── checkpoints/                   # (gitignored) pretrained weights
 │   ├── swinunet_stage1_realdata.pth
@@ -52,23 +51,7 @@ XBandNlos/
 │   └── reflectnet_stage2_simdata.pth
 │
 ├── results/                       # (gitignored) inference outputs
-│   ├── real/
-│   │   ├── stage1/                # Stage 1 outputs on real data
-│   │   └── stage2/                # Stage 2 outputs on real data
-│   └── sim/
-│       ├── stage1/                # Stage 1 outputs on simulated data
-│       └── stage2/                # Stage 2 outputs on simulated data
-│
 ├── utils/                         # shared modules
-│   ├── model.py                   # ResidualReflectNet architecture
-│   ├── swin.py                    # Swin-UNet architecture
-│   ├── dataset.py                 # data loading
-│   ├── loss.py                    # loss functions
-│   ├── eval.py                    # evaluation metrics
-│   ├── radar.py                   # radar signal processing
-│   ├── viz.py                     # visualization utilities
-│   └── utils.py
-│
 ├── infer_swin.py                  # Stage 1 inference
 ├── infer_nlos.py                  # Stage 2 inference
 ├── train_swin.py                  # Stage 1 training

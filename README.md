@@ -25,6 +25,10 @@ Our approach introduces a two-stage neural reconstruction pipeline: a **Swin-UNe
 
 ---
 
+## Data, Checkpoints & Results
+
+The data, pretrained checkpoints, and inference results can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1GHPR3Oj-bUkpyHtcNkoHgt0nStcwwSR6?usp=drive_link).
+
 ## Installation
 
 ```bash
